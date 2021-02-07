@@ -318,6 +318,9 @@ body
 		/*End Footer*/
 		/*Responsive Web*/
 		@media(max-width: 600px) {
+			html{ 
+				overflow-x: hidden; 
+			}
 			.about.content
 			{
 				width: 350px;
