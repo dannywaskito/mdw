@@ -169,7 +169,7 @@ html
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
-		width: 50%;;
+		width: 80%;
 	}
 /*	#about .div-bg
 	{
@@ -339,7 +339,7 @@ html
 				margin-top: 10px;
 			}
 			.item-content{
-				width: 350px;
-				margin-left: auto;
-				margin-right: auto;
+				width: 100%;
+				max-width: 450px;
+				margin-top: 20px
 			}
