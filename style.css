@@ -2,11 +2,15 @@
 {
 	margin: 0;
 	padding: 0;
-	box-sizing:border-box;
 }
-body{
+body
+{
 	overflow-x: hidden;
-	min-height: 100vh;
+	height: 100vh;
+}
+#nav-bar{
+	top: 0;
+	z-index: 10;
 }
 .navbar
 {
@@ -315,14 +319,7 @@ body{
 		}
 		/*End Footer*/
 		/*Responsive Web*/
-		@media (max-width: 991px) {
-
-			.card{
-				margin-top: 30px;
-				padding: 15px 15px;
-				margin-left: 70px;
-				width: 60vh;
-			}
+		@media (max-width: 721px) {
 			.img-fluid{
 				margin-top: 30px;
 				padding: 15px 15px;
