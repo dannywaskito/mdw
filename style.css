@@ -125,8 +125,6 @@ html
 		background-position: center;
 		color: #efefef !important;
 		background-attachment: fixed;
-		padding-top: 50px;
-		padding-bottom: 50px;
 	}
 	#about h2
 	{
@@ -252,6 +250,7 @@ html
 		#portofolio
 		{
 			padding-top: 10px;
+			padding-bottom: 10px;
 			background: #efefef;
 		}
 		#portofolio .filter-nav
@@ -263,16 +262,20 @@ html
 		/*Contact*/
 		#contact
 		{
-			background: #efefef;
+			background: #273147;
 			padding-top: 40px;
 			padding-bottom: 40px;
 			color: #777;
 		}
 		#contact h1
 		{
-			color: #000 !important;
+			color: #ffffff !important;
 			padding-bottom: 10px;
 			text-transform: uppercase;
+		}
+		#contact p
+		{
+			color: #ffffff !important;
 		}
 		#contact h1:after
 		{
@@ -294,7 +297,7 @@ html
 		}
 		::placeholder
 		{
-			color: #999 !important;
+			color: #000000 !important;
 		}
 		.follow
 		{
