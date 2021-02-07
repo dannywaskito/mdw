@@ -313,7 +313,7 @@
 		/*End Footer*/
 		/*Responsive Web*/
 		@media(max-width: 720px) {
-			html{ 
+			body{ 
 				overflow-x: hidden; 
 			}
 			.about.content
