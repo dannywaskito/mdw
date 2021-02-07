@@ -315,7 +315,7 @@ body
 		}
 		/*End Footer*/
 		/*Responsive Web*/
-		@media (max-width: 721px) {
+		@media (max-width: 768px) {
 			.about.content
 			{
 				width: 350px;
@@ -323,7 +323,7 @@ body
 				margin-right: auto;
 			}
 			.profile-pic{
-				width: 350px;
+				max-width: 100%;
 				margin-left: auto;
 				margin-right: auto;
 				margin-top: 10px;
