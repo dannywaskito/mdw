@@ -4,6 +4,10 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+html
+{
+	overflow-x: hidden;
+}
 .navbar
 {
 	background: #273e88;
@@ -313,9 +317,6 @@
 		/*End Footer*/
 		/*Responsive Web*/
 		@media(max-width: 720px) {
-			body{ 
-				overflow-x: hidden; 
-			}
 			.about.content
 			{
 				width: 350px;
