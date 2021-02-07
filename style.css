@@ -317,7 +317,7 @@ html
 		}
 		/*End Footer*/
 		/*Responsive Web*/
-		@media(max-width: 600px) {
+		@media (max-width: 991px) {
 			.about-content
 			{
 				width: 345px;
