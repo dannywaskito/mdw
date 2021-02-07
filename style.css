@@ -6,7 +6,6 @@
 body
 {
 	overflow-x: hidden;
-	height: 100vh;
 }
 .navbar
 {
@@ -317,15 +316,20 @@ body
 		/*End Footer*/
 		/*Responsive Web*/
 		@media (max-width: 721px) {
-			.img-fluid{
-				margin-top: 30px;
-				padding: 15px 15px;
-				margin-right: 70px;
-				width: 65vh;
+			.about.content
+			{
+				width: 350px;
+				margin-left: auto;
+				margin-right: auto;
+			}
+			.profile-pic{
+				width: 350px;
+				margin-left: auto;
+				margin-right: auto;
+				margin-top: 10px;
 			}
 			.item-content{
-				margin-top: 30px;
-				padding: 15px 15px;
-				margin-left: 70px;
-				width: 65vh;
+				width: 350px;
+				margin-left: auto;
+				margin-right: auto;
 			}
