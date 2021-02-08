@@ -26,7 +26,7 @@ $('.filter-button').on('click', (e) => {
   }
 });
   var typed = new Typed(".typing", {
-            strings: ["Web Developer", "Web Designer","Freelancer"],
+            strings: ["Web Developer", "Web Designer"],
             typeSpeed: 100,
             backSpeed: 60,
             loop: true

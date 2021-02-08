@@ -328,13 +328,6 @@ html
 				margin-left: auto;
 				margin-right: auto;
 			}
-			.about-content:before,
-			.about-content:after
-			{
-				width: 100px;
-				margin-left: auto;
-				margin-right: auto;
-			}
 			.profile-pic{
 				width: 100%;
 				max-width: 350px;
